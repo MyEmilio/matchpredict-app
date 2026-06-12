@@ -189,20 +189,6 @@ export default function Home() {
   return (
     <div style={{ minHeight: "100dvh", background: "#030712", color: "#f1f5f9", fontFamily: "system-ui, sans-serif" }}>
 
-      {/* Header */}
-      <header style={{ borderBottom: "1px solid #0f172a", padding: "16px 20px", display: "flex", alignItems: "center", gap: 12 }}>
-        <div style={{ fontSize: 28 }}>⚽</div>
-        <div>
-          <div style={{ fontWeight: 900, fontSize: 18, background: "linear-gradient(90deg,#22c55e,#4ade80)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-            MatchPredict AI
-          </div>
-          <div style={{ fontSize: 11, color: "#475569" }}>Predicții bazate pe formă · valoare jucători · bioritm</div>
-        </div>
-        <div style={{ marginLeft: "auto", fontSize: 11, color: "#334155", background: "#0f172a", borderRadius: 8, padding: "4px 10px", border: "1px solid #1e293b" }}>
-          🤖 Powered by Claude AI
-        </div>
-      </header>
-
       <main style={{ maxWidth: 800, margin: "0 auto", padding: "24px 16px" }}>
 
         {/* Team Selector */}
